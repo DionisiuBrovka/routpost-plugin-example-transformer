@@ -1,0 +1,12 @@
+[project]
+name = "routpost-example-transformer"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/DionisiuBrovka/routpost-plugin-example-transformer"
+Repository = "https://github.com/DionisiuBrovka/routpost-plugin-example-transformer"
+Documentation = "https://github.com/DionisiuBrovka/routpost/blob/main/docs/plugins.md"

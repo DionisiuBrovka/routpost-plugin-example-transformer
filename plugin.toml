@@ -1,0 +1,18 @@
+[plugin]
+id = "org.routpost.example-transformer"
+name = "Example Transformer"
+version = "0.1.0"
+protocol = 1
+description = "Adds a configurable suffix to post text"
+repository = "https://github.com/DionisiuBrovka/routpost-plugin-example-transformer"
+license = "GPL-3.0-or-later"
+
+[runtime]
+type = "python"
+entrypoint = "src/main.py"
+
+[capabilities]
+transformer = true
+
+[config]
+transform_schema = "schemas/transform.json"
